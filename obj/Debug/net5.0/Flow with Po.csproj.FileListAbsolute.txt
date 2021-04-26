@@ -1,0 +1,41 @@
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/appsettings.Development.json
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/appsettings.json
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/Flow with Po
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/Flow with Po.deps.json
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/Flow with Po.runtimeconfig.json
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/Flow with Po.runtimeconfig.dev.json
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/Flow with Po.dll
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/ref/Flow with Po.dll
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/Flow with Po.pdb
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/Flow with Po.Views.dll
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/bin/Debug/net5.0/Flow with Po.Views.pdb
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.csprojAssemblyReference.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.GeneratedMSBuildEditorConfig.editorconfig
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.AssemblyInfoInputs.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.AssemblyInfo.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.csproj.CoreCompileInputs.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.MvcApplicationPartsAssemblyInfo.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.RazorAssemblyInfo.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.RazorAssemblyInfo.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/staticwebassets/Flow with Po.StaticWebAssets.Manifest.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/staticwebassets/Flow with Po.StaticWebAssets.xml
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/scopedcss/bundle/Flow with Po.styles.css
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.TagHelpers.input.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.TagHelpers.output.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.RazorCoreGenerate.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Razor/Views/Hello/Index.cshtml.g.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.RazorTargetAssemblyInfo.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.RazorTargetAssemblyInfo.cs
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.Views.pdb
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.dll
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/ref/Flow with Po.dll
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.pdb
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.genruntimeconfig.cache
+/home/apollo/Documents/Spr2021/ASP.NET-Web-Dev/Flow with Po/obj/Debug/net5.0/Flow with Po.csproj.CopyComplete
