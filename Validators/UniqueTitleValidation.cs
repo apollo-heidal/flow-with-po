@@ -7,11 +7,6 @@ namespace FlowWithPo.Validators
 {
     public class UniqueTitleValidation : ValidationAttribute
     {
-        // private string _title;
-        // public UniqueTitleValidation(string title)
-        // {
-        //     _title = title;
-        // }
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var blogService = (IBlogRepository)validationContext.GetService(typeof(IBlogRepository));
