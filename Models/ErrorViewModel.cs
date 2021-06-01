@@ -1,6 +1,6 @@
 using System;
 
-namespace Flow_with_Po.Models
+namespace FlowWithPo.Models
 {
     public class ErrorViewModel
     {

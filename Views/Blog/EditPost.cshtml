@@ -1,0 +1,31 @@
+@model BlogPost
+
+@{
+    ViewData["Title"] = "Edit Post";
+}
+
+<h4>Edit post</h4>
+<hr>
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="EditPost">
+            <span asp-validation-for="Title"></span>
+            <br>
+            <input asp-for="Title" value="@Model.Title" maxlength="100"/>
+            <br> <br>
+            <span asp-validation-for="Text"></span>
+            <br>
+            <textarea asp-for="Text" rows="7" cols="25">@Model.Text</textarea>
+            <br> <br>
+            <input type="submit" value="Save!">
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to Blog</a>
+</div>
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,6 +1,6 @@
 @{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
+<p>There is no privacy policy at this time. Think before you click!</p>
 
-<p>Use this page to detail your site's privacy policy.</p>
+@await Html.PartialAsync("_Image", new { fileName = "anon.jpg", classes = "col-6" })

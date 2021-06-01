@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Flow_with_Po.Models;
+using FlowWithPo.Models;
 
-namespace Flow_with_Po.Controllers
+namespace FlowWithPo.Controllers
 {
     public class HomeController : Controller
     {
@@ -26,6 +22,11 @@ namespace Flow_with_Po.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult GetImage(string fileName)
+        {
+            return File($@"images/{fileName.ToLower()}", "image/jpeg");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

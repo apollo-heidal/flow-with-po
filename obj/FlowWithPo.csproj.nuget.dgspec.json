@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/apollo/Documents/FlowWithPo/FlowWithPo.csproj": {}
+  },
+  "projects": {
+    "/home/apollo/Documents/FlowWithPo/FlowWithPo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/apollo/Documents/FlowWithPo/FlowWithPo.csproj",
+        "projectName": "FlowWithPo",
+        "projectPath": "/home/apollo/Documents/FlowWithPo/FlowWithPo.csproj",
+        "packagesPath": "/home/apollo/.nuget/packages/",
+        "outputPath": "/home/apollo/Documents/FlowWithPo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/apollo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[5.0.5, 5.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
