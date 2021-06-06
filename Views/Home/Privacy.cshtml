@@ -1,6 +1,7 @@
 @{
     ViewData["Title"] = "Privacy Policy";
 }
-<p>There is no privacy policy at this time. Think before you click!</p>
-
-@await Html.PartialAsync("_Image", new { fileName = "anon.jpg", classes = "col-6" })
+<div class="container-fluid">
+    <p>There is no privacy policy at this time. Think before you click!</p>
+    @await Html.PartialAsync("_Image", new { fileName = "anon.jpg", classes = "col-6" })
+</div>

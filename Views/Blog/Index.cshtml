@@ -4,13 +4,15 @@
     ViewData["Title"] = "Blog";
 }
 
-<a class="btn btn-success" asp-action="CreatePost">Create a post!</a>
-<hr>
-@foreach (var post in Model.OrderByDescending(bp => bp.TimePosted))
-{
-    <h3>@post.Title</h3>
-    <p>@post.Text</p>
-    <p>@post.TimePosted</p>
-    <a asp-action="ViewPost" asp-route-id="@post.BlogPostId" class="btn btn-secondary">View post</a>
+<div class="container-fluid">
+    <a class="btn btn-success" asp-action="CreatePost">Create a post!</a>
     <hr>
-}
+    @foreach (var post in Model.OrderByDescending(bp => bp.TimePosted))
+    {
+        <h3>@post.Title</h3>
+        <p>@post.Text</p>
+        <p>@post.TimePosted</p>
+        <a asp-action="ViewPost" asp-route-id="@post.BlogPostId" class="btn btn-secondary">View post</a>
+        <hr>
+    }
+</div>

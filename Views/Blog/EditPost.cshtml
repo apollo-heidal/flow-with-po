@@ -4,26 +4,28 @@
     ViewData["Title"] = "Edit Post";
 }
 
-<h4>Edit post</h4>
-<hr>
-<div class="row">
-    <div class="col-md-8">
-        <form asp-action="EditPost">
-            <span asp-validation-for="Title"></span>
-            <br>
-            <input asp-for="Title" value="@Model.Title" maxlength="100"/>
-            <br> <br>
-            <span asp-validation-for="Text"></span>
-            <br>
-            <textarea asp-for="Text" rows="7" cols="25">@Model.Text</textarea>
-            <br> <br>
-            <input type="submit" value="Save!">
-        </form>
+<div class="container-fluid">
+    <h4>Edit post</h4>
+    <hr>
+    <div class="row">
+        <div class="col-md-8">
+            <form asp-action="EditPost">
+                <span asp-validation-for="Title"></span>
+                <br>
+                <input class="form-control" asp-for="Title" value="@Model.Title" maxlength="100" />
+                <br>
+                <span asp-validation-for="Text"></span>
+                <br>
+                <textarea class="form-control" asp-for="Text" rows="7" cols="25">@Model.Text</textarea>
+                <br> <br>
+                <input class="btn btn-primary" type="submit" value="Save!">
+                <a class="btn btn-secondary" asp-controller="Blog" asp-action="ViewPost" asp-route-id="@Model.BlogPostId">Cancel</a>
+            </form>
+        </div>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to Blog</a>
+    <div>
+    </div>
 </div>
 
 @section Scripts {

@@ -3,34 +3,35 @@
 @{
     ViewData["Title"] = Model.Title;
 }
+<div class="container-fluid">
+    <h3>@Model.Title</h3>
+    <br>
+    <p>@Model.Text</p>
+    <br>
+    <p>@Model.TimePosted</p>
 
-<h3>@Model.Title</h3>
-<br>
-<p>@Model.Text</p>
-<br>
-<p>@Model.TimePosted</p>
+    <a asp-action="EditPost" asp-route-id="@Model.BlogPostId" class="btn btn-light">Edit post</a>
+    <a href="#" class="btn btn-danger" onclick="ConfirmDelete()">Delete post</a>
 
-<a asp-action="EditPost" asp-route-id="@Model.BlogPostId" class="btn btn-light">Edit post</a>
-<a href="#" class="btn btn-danger" onclick="ConfirmDelete()">Delete post</a>
-
-@*this is a slightly edited version of the code found here: https://qawithexperts.com/article/asp-net/show-bootstrap-confirmation-modal-before-delete-in-aspnet-mv/230*@
-<div class="modal fade" id="deleteModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <h5>Are you sure you want to delete this post?</h5>
-            </div>
-            <div class="modal-footer">
-                <a href="#" class="btn btn-light" data-dismiss="modal">Cancel</a>
-                <a class="btn btn-danger" method="post" href="/Blog/DeletePost/@Model.BlogPostId">Confirm</a>
+    @*this is a slightly edited version of the code found here:
+        https://qawithexperts.com/article/asp-net/show-bootstrap-confirmation-modal-before-delete-in-aspnet-mv/230*@
+    <div class="modal fade" id="deleteModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h5>Are you sure you want to delete this post?</h5>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-light" data-dismiss="modal">Cancel</a>
+                    <a class="btn btn-danger" method="post" href="/Blog/DeletePost/@Model.BlogPostId">Confirm</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 <script>
-        function ConfirmDelete(blogPostId) 
-        {
-            $("#deleteModal").modal('show');
-        }
+    function ConfirmDelete(blogPostId) {
+        $("#deleteModal").modal('show');
+    }
 </script>
